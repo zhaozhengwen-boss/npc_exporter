@@ -23,7 +23,7 @@ NPU Exporter 是一个用于采集华为 Ascend NPU (Neural Processing Unit) 设
 
 1.  克隆仓库：
     ```bash
-    git clone https://github.com/your-username/npu_exporter.git
+    git clone https://github.com/zhaozhengwen-boss/npc_exporter.git
     cd npu_exporter
     ```
 
@@ -78,8 +78,7 @@ scrape_configs:
 
 ## 目录结构
 
-*   `cmd/`: 包含主程序入口。
-*   `internal/`: 内部逻辑包。
+*   internal/`: 内部逻辑包。
     *   `collector/`: Prometheus 采集器实现。
     *   `npu/`: `npu-smi` 命令执行与输出解析逻辑。
     *   `logger/`: 日志工具。
